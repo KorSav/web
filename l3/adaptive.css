@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px){
+    .container{
+        min-height: 100vh;
+    }
+    .text-bigger{
+        font-size: 7vw;
+    }
+    *{
+        font-size: 4.5vw;
+    }
+    body{
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 400px){
+    .text-bigger{
+        font-size: 7.5vw;
+    }
+    *{
+        font-size: 5.5vw;
+    }
+}
+@media only screen and (max-width: 250px){
+    :root{
+        --bw: 2px;
+    }
+    .text-bigger{
+        font-size: 18px;
+    }
+    *{
+        font-size: 13px;
+    }
+    .container{
+        min-width: 250px;
+    }
+}
