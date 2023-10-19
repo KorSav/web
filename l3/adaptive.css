@@ -36,6 +36,9 @@
         grid-row: 5;
         grid-column: 1/-1;
     }
+    .body{
+        min-width: 100%;
+    }
     .text-bigger{
         font-size: 6vw;
     }
