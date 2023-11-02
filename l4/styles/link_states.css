@@ -1,0 +1,36 @@
+.nav-menu a, .page-current,
+.dropdown-menu a, .text-info>a{
+    text-decoration: none;
+}
+.page-current{
+    color: coral;
+}
+.nav-menu a:not(.page-current):link,
+.nav-menu a:not(.page-current):visited{
+    color: #333;
+}
+
+.nav-menu a:hover, .nav-menu a:active{
+    text-decoration: underline coral;
+}
+
+.dropdown-menu a:not(.page-current):link,
+.dropdown-menu a:not(.page-current):visited{
+    color: #fff;
+}
+
+.dropdown-menu a:hover, .dropdown-menu a:active{
+    text-decoration: underline coral;
+}
+
+.text-info>a:link, .text-info>a:visited{
+    border-color: #333;
+    background-color: #e1e5eb;
+    color: #444;
+}
+
+.text-info>a:hover, .text-info>a:active{
+    border-color: #000;
+    background-color: #555;
+    color: #fff;
+}
