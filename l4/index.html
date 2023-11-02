@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/gridbox.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/link_states.css">
+    <link rel="stylesheet" href="styles/text_info.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <img class="logo" src="images/logo.svg", alt="logo">
+            <div class="hamburger-icon">≡</div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a class="page-current" href="#">Home page</a></li>
+                    <li><a class="page" href="pages/page1.html">Page 1</a></li>
+                    <li><a class="page" href="pages/page2.html">Page 2</a></li>
+                    <li><a class="page" href="pages/page1.html">Page 3</a></li>
+                    <li><a class="page" href="pages/page1.html">Page 4</a></li>
+                    <li><a class="page" href="pages/page1.html">Page 5</a></li>
+                    <li><a class="page" href="pages/page1.html">Page 6</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container gridbox">
+            <img src="images/image1.jpg" alt="img1" class="grid-element">
+            <img src="images/image2.jpg" alt="img1" class="grid-element">
+            <img src="images/image3.jpg" alt="img1" class="grid-element">
+            <div class="grid-element ge4 text-info">
+                <p>
+                    Orci nulla pellentesque dignissim enim. In vitae turpis
+                    massa sed. Nibh tellus molestie nunc non blandit massa
+                    enim nec dui. Viverra adipiscing at in tellus. Ipsum dolor sit
+                    amet consectetur adipiscing elit duis tristique.
+                </p>
+                <a>LEARN MORE</a>
+            </div>
+            <div class="grid-element over-3">
+                <h1>
+                    Negotiation Skills Course
+                </h1>
+                <p>
+                    Sample text. Sample text. Click to select the
+                    text box. Click again or double click to start
+                    editing the text.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="container footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellendus commodi consectetur doloribus ipsum, dolor corrupti!
+        </p>
+    </footer>
+    <script>
+        const hamburgerIcon = document.querySelector('.hamburger-icon');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburgerIcon.addEventListener('click', () => {
+        navMenu.classList.toggle('dropdown-menu');
+        navMenu.classList.toggle('nav-menu');
+        });
+    </script>
+</body>
+</html>
