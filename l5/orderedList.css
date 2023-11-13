@@ -1,0 +1,45 @@
+.item ol button{
+    margin: auto 6px;
+    font-size: 15px;
+    padding: 3px;
+    height: 33px; 
+    width: 33px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.item ol{
+    margin: 0; 
+    height: 100%;
+}
+.item ol form{
+    display: flex; 
+    flex-direction: row;
+}
+.item ol input{
+    width: 100%;
+    flex-grow: 1;
+}
+.item ol>div{
+    display: flex;
+    margin: 7px 0 7px 7px;
+}
+.item ol>div>li{
+    flex-grow: 1; 
+    margin-top: auto; 
+    margin-bottom: auto;
+    flex-shrink: 1;
+    min-width: 0;
+    text-align: left;
+}
+
+.it2 ol, .it4 ol{
+    padding-left: 2.5vw;
+}
+
+.it2 ol>div, .it4 ol>div{
+    flex-direction: row;
+}
+.it2 ol>div>button,
+.it4 ol>div>button{
+    align-self: center;
+}
