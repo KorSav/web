@@ -1,0 +1,101 @@
+.work{
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, -50vh);
+    width: calc(55vw + 10px);
+    height: calc(80vh + 50px);
+    border: 3px black dashed;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls{
+    width: 100%;
+    height: 50px;
+}
+
+.box-mes{
+    height: inherit;
+    width: 50%;
+    float: left;
+    overflow: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box-btns{
+    height: inherit;
+    width: 50%;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anim{
+    background-image: url("../texture.jpg");
+    background-repeat: repeat;
+    flex-grow: 1;
+    border: 5px orange solid;
+}
+
+.circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.tbl-container{
+    overflow: auto;
+    padding: 0;
+}
+
+.container{
+    max-height: 110vh;
+}
+
+#lsTable{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+#lsTable div{
+    text-wrap: nowrap;
+    overflow: auto;
+}
+
+#lsTable td{
+    width: min-content;
+    padding: 0;
+    border: 3px gray solid;
+}
+
+#lsTable tr{
+    height: 50px;
+}
+
+#lsTable .tbl-col1{
+    width: 2ch;
+}
+
+#lsTable .tbl-col1 div{
+    font-size: 13px;
+}
+
+#lsTable .tbl-col2 div{
+    text-wrap: wrap;
+    font-size: 17px;
+}
+
+#lsTable .tbl-col3 div{
+    text-wrap: wrap;
+    font-size: 17px;
+}
